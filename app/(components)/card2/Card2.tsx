@@ -13,7 +13,7 @@ export default function Card2() {
           <div className="relative w-full h-[336px] justify-center items-center p-4">
             <Image src="/card1.jpg" alt="AirBrush" fill />
           </div>
-          <button className="w-full text-center py-4 text-sm border-t bg-red-100 hover:underline">
+          <button className="w-full text-center py-4 text-sm  bg-[#E6D1CE] hover:underline cursor-pointer">
             Shop AirBrush
           </button>
         </div>
@@ -22,7 +22,7 @@ export default function Card2() {
         <div className="relative w-full h-[336px] justify-center items-center p-4">
           <Image src="/card2.jpg" alt="AirTint" fill className="object-cover w-[443px] h-[375px]" />
           </div>
-          <button className="w-full text-center py-4 text-sm  bg-[#FFF1E8] hover:underline">
+          <button className="w-full text-center py-4 text-sm  bg-[#FFF1E8] hover:underline cursor-pointer">
             Shop AirTint
           </button>
         </div>
@@ -31,7 +31,7 @@ export default function Card2() {
         <div className="relative w-full h-[336px] justify-center items-center p-4">
             <Image src="/card3.png" alt="AirGlow" fill />
           </div>
-          <button className="w-full text-center py-4 text-sm border-t bg-red-100 hover:underline">
+          <button className="w-full text-center py-4 text-sm  bg-[#DFCEBE] hover:underline cursor-pointer">
             Shop AirGlow
           </button>
         </div>
