@@ -6,7 +6,7 @@ export default function Header() {
       <div className="hidden md:block relative w-full h-[500px]">
         <Image
           src="/frontimg1.png"
-          alt="Flawless Coverage for All"
+          alt="imge"
           layout="fill"
           objectFit="cover"
           className="z-0"

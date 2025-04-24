@@ -3,6 +3,18 @@
 import { useState } from "react";
 import { ChevronDown } from "lucide-react";
 import Button from "../button/Button";
+import { config } from "@fortawesome/fontawesome-svg-core";
+import "@fortawesome/fontawesome-svg-core/styles.css";
+config.autoAddCss = false;
+
+import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
+import {
+  faFacebookF,
+  faInstagram,
+  faTwitter,
+  faYoutube,
+  faPinterestP,
+} from "@fortawesome/free-brands-svg-icons";
 
 const Footer = () => {
   const [openSection, setOpenSection] = useState<string | null>(null);
@@ -13,9 +25,8 @@ const Footer = () => {
 
   return (
     <footer className="border-t mt-16 text-sm text-black">
-      <div className="max-w-7xl mx-auto px-4 py-10">
+      <div className="max-w-7xl mx-auto px-16 py-10">
         <div className="hidden md:grid grid-cols-4 gap-8">
-         
           <div>
             <h3 className="font-semibold mb-2">SHOP</h3>
             <ul className="space-y-1">
@@ -51,11 +62,11 @@ const Footer = () => {
             <p className="text-xs mb-2">
               Receive 15% off your first order when you join our mailing list. Plus, you’ll be the first to find out about new products and sale events!
             </p>
-            <Button/>
+            <Button />
           </div>
         </div>
 
-        {/* mobile */}
+        {/* Mobile view */}
         <div className="md:hidden space-y-6">
           {["SHOP", "RESOURCES", "LEGAL"].map((section) => (
             <div key={section}>
@@ -105,19 +116,19 @@ const Footer = () => {
             <p className="text-xs mt-1 mb-3 text-center">
               Receive 15% off your first order when you join our mailing list. Plus, you’ll be the first to find out about new products and sale events!
             </p>
-            <div className="flex  border-black px-2 py-1 text-xs">
+            <div className="flex border border-black px-2 py-1 text-xs">
               <input type="email" placeholder="Enter Email Address" className="w-full outline-none" />
-              <Button/>
+              <Button />
             </div>
           </div>
         </div>
 
         <div className="mt-8 flex items-center justify-center space-x-4 text-xl">
-          <i className="fab fa-facebook-f" />
-          <i className="fab fa-instagram" />
-          <i className="fab fa-twitter" />
-          <i className="fab fa-youtube" />
-          <i className="fab fa-pinterest-p" />
+          <FontAwesomeIcon icon={faFacebookF} />
+          <FontAwesomeIcon icon={faInstagram} />
+          <FontAwesomeIcon icon={faTwitter} />
+          <FontAwesomeIcon icon={faYoutube} />
+          <FontAwesomeIcon icon={faPinterestP} />
         </div>
 
         <p className="mt-6 text-center text-xs text-gray-600">

@@ -75,7 +75,7 @@ export default function Navbar() {
   }, [isOpen]);
 
   return (
-    <header className="bg-white shadow-md sticky top-0 z-50">
+    <header className="bg-white shadow-md sticky top-0 z-50 max-w-[1920px] mx-auto">
       <div className="bg-red-200 text-sm text-center py-1 text-black">
         <span>Click Here</span> to Get <span>15% OFF</span> When You Sign Up For Email and SMS
       </div>
@@ -96,7 +96,7 @@ export default function Navbar() {
             type="text"
             value={search}
             onChange={(e) => setSearch(e.target.value)}
-            placeholder="Search..."
+            placeholder="Search...                        🔍"
             className="border rounded-md px-3 py-1 text-sm focus:outline-none"
           />
         </div>
