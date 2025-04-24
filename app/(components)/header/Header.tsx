@@ -3,7 +3,7 @@ import Image from "next/image";
 export default function Header() {
   return (
     <div className="w-full">
-      <div className="hidden md:block relative w-full h-[500px]">
+      <div className="hidden md:block relative w-full h-[800px] ">
         <Image
           src="/frontimg1.png"
           alt="imge"
@@ -11,9 +11,9 @@ export default function Header() {
           objectFit="cover"
           className="z-0"
         />
-        <div className="absolute top-0 left-0 w-full h-full flex items-center justify-end pr-20">
-          <div className="text-left max-w-lg">
-            <h1 className="text-4xl font-serif italic text-[#3d1d1d] mb-4">
+        <div className="absolute top-0 left-0 w-full h-full flex items-center justify-end pr-40">
+          <div className="text-left max-w-full">
+            <h1 className="text-6xl font-serif italic text-[#3d1d1d] mb-4">
               Flawless Coverage for All
             </h1>
             <p className="text-[#3d1d1d] text-sm mb-6">
