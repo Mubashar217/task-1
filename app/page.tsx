@@ -1,7 +1,7 @@
 import Image from "next/image";
 import Navbar from "./(components)/navbar/Navbar";
 import Header from "./(components)/header/Header";
-// import Footer from "./(components)/footer/Footer";
+import Footer from "./(components)/footer/Footer";
 // import Button from "./(components)/button/Button";
 
 export default function Home() {
@@ -9,7 +9,7 @@ export default function Home() {
    <>
    <Navbar/>
    <Header/>
-   {/* <Footer/> */}
+   <Footer/>
    {/* <Button/> */}
    </>
   );
