@@ -107,10 +107,10 @@ export default function Navbar() {
 
         <div className="flex items-center gap-3 sm:ml-auto">
           <div className="hidden sm:flex items-center space-x-4 text-sm text-gray-800 ml-auto">
-            <Link href="/" className="hover:underline">Home</Link>
-            <Link href="/shop" className="hover:underline">Shop</Link>
-            <Link href="/about" className="hover:underline">About</Link>
-            <Link href="/contact" className="hover:underline">Contact</Link>
+            <Link href="/" className="hover:underline">Find Your Shade |</Link>
+            <Link href="/shop" className="hover:underline">FAQ |</Link>
+            <Link href="/about" className="hover:underline">jerome's Secrels |</Link>
+            <Link href="/contact" className="hover:underline">Sign In</Link>
           </div>
 
           <Link href="/cart" className="relative group hover:text-pink-500">

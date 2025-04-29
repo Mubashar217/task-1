@@ -16,7 +16,7 @@ export default function Header() {
             <h1 className="text-6xl font-serif italic text-[#3d1d1d] mb-4">
               Flawless Coverage for All
             </h1>
-            <p className="text-[#3d1d1d] text-sm mb-6">
+            <p className="text-[#3d1d1d] text-md mb-6">
               The AirBrush family helps create the smooth, flawless finish your
               skin deserves.
             </p>
