@@ -75,9 +75,9 @@ export default function TopPicks() {
             <div
               key={product.id}
               onClick={() => handleProductClick(product.id)}
-              className="flex-shrink-0 w-64 md:w-auto bg-white rounded-lg p-4 flex flex-col items-center space-y-3 cursor-pointer"
+              className="flex-shrink-0 w-96 md:w-auto bg-white rounded-lg p-4 flex flex-col items-center space-y-3 cursor-pointer"
             >
-              <div className="w-full h-48 relative">
+              <div className="w-full h-96 relative">
                 <Image
                   src={product.image}
                   alt={product.title}
@@ -85,7 +85,7 @@ export default function TopPicks() {
                   className="object-contain"
                 />
               </div>
-              <div className="flex text-pink-500 space-x-1 text-lg">★★★★★</div>
+              <div className="flex text-red-200 space-x-1 text-lg">★★★★★</div>
               <h3 className="text-sm font-medium">{product.title}</h3>
               <p className="font-bold">{product.price}</p>
 
@@ -101,7 +101,9 @@ export default function TopPicks() {
                             setShade(color);
                           }}
                           className={`w-5 h-5 rounded-full border-2 ${
-                            shade === color ? "border-black" : "border-gray-300"
+                            shade === color
+                              ? "border-black"
+                              : "border-gray-300"
                           }`}
                           style={{ backgroundColor: color }}
                         />
