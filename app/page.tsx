@@ -8,6 +8,7 @@ import Card4 from "./(components)/card4/Card4";
 import Girlcard from "./(components)/girlcard/Girlcard";
 import Card5 from "./(components)/card5/Card5";
 import Aftereffect from "./(components)/aftereffect/Aftereffect";
+import Card6 from "./(components)/card6/Card6";
 
 // import Button from "./(components)/button/Button";
 
@@ -23,6 +24,7 @@ export default function Home() {
         <Girlcard />
         <Card5 />
         <Aftereffect/>
+        <Card6/>
         <Footer />
         {/* <Button/> */}
       </div>
