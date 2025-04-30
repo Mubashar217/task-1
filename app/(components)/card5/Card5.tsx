@@ -1,27 +1,64 @@
-"use client";
+'use client';
+
+import Image from 'next/image';
 
 export default function Card5() {
   return (
-    <div className="flex flex-col md:flex-row w-full mt-20 overflow-hidden rounded-2xl shadow-lg">
-    
-      <div className="w-full md:w-1/5 bg-white dark:bg-gray-900 p-6 flex items-center justify-center">
-        <div className="text-center space-y-2">
-          <h2 className="text-xl font-semibold text-gray-800 dark:text-white">
-            Card Title
-          </h2>
-          <p className="text-sm text-gray-600 dark:text-gray-300">
-            Some description here.
-          </p>
+    <div className="w-full px-4 py-8 bg-white mt-20">
+      <div className="max-w-[1920px] mx-auto grid grid-cols-1 md:grid-cols-4 gap-8">
+        <div className="flex flex-col items-center text-center space-y-4">
+          <Image
+            src="/cardmart1.png"
+            alt="Airbrush Foundation Set"
+            width={300}  
+            height={300} 
+            className="object-contain"
+          />
+          <p className="text-pink-600 font-semibold">AirBrush Foundation 3pc Set</p>
+          <p className="text-black font-bold text-lg">$00.00</p>
+          <button className="bg-red-300 hover:bg-pink-500 text-black px-6 py-2 rounded-md text-sm font-semibold transition">
+            SHOP NOW
+          </button>
+        </div>
+
+        <div className="md:col-span-3">
+          <div className="w-full h-64 md:h-[500px] overflow-hidden relative">
+            <Image
+              src="/bigpic1.jpg"
+              alt="Airbrush Banner"
+              layout="fill"
+              className="object-fill"
+            />
+          </div>
         </div>
       </div>
 
- 
-      <div className="relative w-full md:w-4/5 aspect-[16/9] md:aspect-auto md:h-[400px]">
-        <img
-          src="/bigpic1.jpg"
-          alt="Sample"
-          className="absolute inset-0 w-full h-full object-cover"
-        />
+      <div className="max-w-[1920px] mx-auto grid grid-cols-1 md:grid-cols-4 gap-8 mt-20">
+        <div className="md:col-span-3">
+          <div className="w-full h-64 md:h-[500px]  overflow-hidden relative">
+            <Image
+              src="/card2.jpg"
+              alt="Airbrush Banner"
+              layout="fill"
+              className="object-cover"
+            />
+          </div>
+        </div>
+
+        <div className="flex flex-col items-center text-center space-y-4">
+          <Image
+            src="/cardmart1.png"
+            alt="Airbrush Foundation Set"
+            width={300}  
+            height={300} 
+            className="object-contain"
+          />
+          <p className="text-pink-600 font-semibold">AirBrush Foundation 3pc Set</p>
+          <p className="text-black font-bold text-lg">$00.00</p>
+          <button className="bg-red-300 hover:bg-pink-500 text-black px-6 py-2 rounded-md text-sm font-semibold transition">
+            SHOP NOW
+          </button>
+        </div>
       </div>
     </div>
   );

@@ -7,6 +7,7 @@ import Cardmart from "./(components)/cardmart/Cardmart";
 import Card4 from "./(components)/card4/Card4";
 import Girlcard from "./(components)/girlcard/Girlcard";
 import Card5 from "./(components)/card5/Card5";
+import Aftereffect from "./(components)/aftereffect/Aftereffect";
 
 // import Button from "./(components)/button/Button";
 
@@ -21,6 +22,7 @@ export default function Home() {
         <Card4 />
         <Girlcard />
         <Card5 />
+        <Aftereffect/>
         <Footer />
         {/* <Button/> */}
       </div>
