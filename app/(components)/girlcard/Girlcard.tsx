@@ -4,7 +4,7 @@ import Image from "next/image";
 
 export default function Girlcard() {
   return (
-    <section className="flex flex-col md:flex-row items-center justify-center bg-[#FBEAE6] mt-10">
+    <section className=" max-w-[1920px] mx-auto flex flex-col md:flex-row items-center justify-center bg-[#FBEAE6] mt-10">
       <div className="w-full md:w-1/2">
         <Image
           src="/girlcard.jpg"

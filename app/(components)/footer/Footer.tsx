@@ -97,7 +97,7 @@ const Footer = () => {
             </p>
             <Button />
 
-            <div className="mt-6 flex items-center justify-start space-x-4 text-xl">
+            <div className="mt-6 flex items-center justify-start space-x-4 text-xl cursor-pointer">
               <FontAwesomeIcon icon={faFacebookF} />
               <FontAwesomeIcon icon={faInstagram} />
               <FontAwesomeIcon icon={faTwitter} />
@@ -122,7 +122,7 @@ const Footer = () => {
                 />
               </button>
               {openSection === section && (
-                <ul className="mt-2 space-y-1 text-sm">
+                <ul className="mt-2 space-y-1 text-sm ">
                   {section === "SHOP" && (
                     <>
                       <li>

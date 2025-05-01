@@ -23,7 +23,14 @@ const products = [
     title: "Powder Foundation & Mascara",
     price: "$00.00",
     image: "/cardmart2.png",
-    swatches: ["#f1e1d0", "#dfc2a8", "#cda98c"],
+    swatches: [
+      "#e8d0c0",
+      "#d1ac8b",
+      "#c0997e",
+      "#a97761",
+      "#8d5d4a",
+      "#5c3e2b",
+    ],
   },
   {
     id: 3,
@@ -55,7 +62,7 @@ const products = [
   },
 ];
 
-export default function TopPicks() {
+export default function Cardmart() {
   const [shade, setShade] = useState<string | null>(null);
   const [activeProductId, setActiveProductId] = useState<number | null>(null);
 
