@@ -1,8 +1,13 @@
-export default function Jeromsecrels() {
-    return (
-      <div>
-        <h1 className="text-3xl font-bold underline">jeromsecrels</h1>;
-      </div>
-    );
-  }
-  
+import Footer from "../(components)/footer/Footer";
+import Navbar from "../(components)/navbar/Navbar";
+
+export default function jeromsecrels() {
+  return (
+    <div className="max-w-[1920px] mx-auto">
+      <Navbar />
+      <h1 className="text-4xl font-bold text-center py-20">jeromsecrels</h1>
+      <Footer />
+    </div>
+  );
+}
+;

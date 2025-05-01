@@ -1,53 +1,53 @@
-'use client'
+"use client";
 
-import React from 'react'
+import React from "react";
 
 const reviews = [
   {
-    name: 'Debbie L.',
-    time: '4 hours ago',
-    title: 'I always have a great experience with...',
-    text: 'I always have a great experience with... Alexander delivery and service.',
+    name: "Debbie L.",
+    time: "4 hours ago",
+    title: "I always have a great experience with...",
+    text: "I always have a great experience with... Alexander delivery and service.",
   },
   {
-    name: 'Amy Cohen',
-    time: '6 hours ago',
-    title: 'review',
+    name: "Amy Cohen",
+    time: "6 hours ago",
+    title: "review",
     text: "I've been a customer for several years...",
   },
   {
-    name: 'Cassandra',
-    time: '11 hours ago',
-    title: 'I love this makeup',
-    text: 'I love this makeup. Just enjoy it so much...',
+    name: "Cassandra",
+    time: "11 hours ago",
+    title: "I love this makeup",
+    text: "I love this makeup. Just enjoy it so much...",
   },
   {
-    name: 'Elena Gilbert',
-    time: '15 hours ago',
-    title: 'always happy',
-    text: 'always happy, you never disappoint.',
+    name: "Elena Gilbert",
+    time: "15 hours ago",
+    title: "always happy",
+    text: "always happy, you never disappoint.",
   },
   {
-    name: 'Yessy Gonzalez',
-    time: '3 hours ago',
-    title: 'good product',
-    text: 'muy grandioso y fantástico',
+    name: "Yessy Gonzalez",
+    time: "3 hours ago",
+    title: "good product",
+    text: "muy grandioso y fantástico",
   },
-  
+
   {
-    name: 'Yessy Gonzalez',
-    time: '3 hours ago',
-    title: 'good product',
-    text: 'muy grandioso y fantástico',
+    name: "Yessy Gonzalez",
+    time: "3 hours ago",
+    title: "good product",
+    text: "muy grandioso y fantástico",
   },
-  
+
   {
-    name: 'Yessy Gonzalez',
-    time: '3 hours ago',
-    title: 'good product',
-    text: 'muy grandioso y fantástico',
+    name: "Yessy Gonzalez",
+    time: "3 hours ago",
+    title: "good product",
+    text: "muy grandioso y fantástico",
   },
-]
+];
 
 const Card7 = () => {
   return (
@@ -71,7 +71,7 @@ const Card7 = () => {
         ))}
       </div>
     </div>
-  )
-}
+  );
+};
 
 export default Card7;

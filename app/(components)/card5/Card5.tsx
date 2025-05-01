@@ -1,6 +1,6 @@
-'use client';
+"use client";
 
-import Image from 'next/image';
+import Image from "next/image";
 
 export default function Card5() {
   return (
@@ -10,11 +10,13 @@ export default function Card5() {
           <Image
             src="/cardmart1.png"
             alt="Airbrush Foundation Set"
-            width={300}  
-            height={300} 
+            width={300}
+            height={300}
             className="object-contain"
           />
-          <p className="text-pink-600 font-semibold">AirBrush Foundation 3pc Set</p>
+          <p className="text-pink-600 font-semibold">
+            AirBrush Foundation 3pc Set
+          </p>
           <p className="text-black font-bold text-lg">$00.00</p>
           <button className="bg-red-300 hover:bg-pink-500 text-black px-6 py-2 rounded-md text-sm font-semibold transition">
             SHOP NOW
@@ -49,11 +51,13 @@ export default function Card5() {
           <Image
             src="/cardmart1.png"
             alt="Airbrush Foundation Set"
-            width={300}  
-            height={300} 
+            width={300}
+            height={300}
             className="object-contain"
           />
-          <p className="text-pink-600 font-semibold">AirBrush Foundation 3pc Set</p>
+          <p className="text-pink-600 font-semibold">
+            AirBrush Foundation 3pc Set
+          </p>
           <p className="text-black font-bold text-lg">$00.00</p>
           <button className="bg-red-300 hover:bg-pink-500 text-black px-6 py-2 rounded-md text-sm font-semibold transition">
             SHOP NOW

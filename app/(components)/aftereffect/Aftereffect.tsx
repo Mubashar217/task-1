@@ -1,18 +1,18 @@
-'use client';
+"use client";
 
-import Image from 'next/image';
+import Image from "next/image";
 
 const beforeAfterData = [
   {
-    before: '/effect1.png',
+    before: "/effect1.png",
   },
   {
-    before: '/effect2.png',
-    name: 'Vanessa R.',
-    caption: 'Wearing Airbrush Foundation',
+    before: "/effect2.png",
+    name: "Vanessa R.",
+    caption: "Wearing Airbrush Foundation",
   },
   {
-    before: '/effect3.png',
+    before: "/effect3.png",
   },
 ];
 
@@ -20,7 +20,9 @@ export default function Aftereffect() {
   return (
     <div className="bg-white py-10 px-4 text-center mt-10">
       <div className="max-w-[1920px] mx-auto px-4 md:px-20">
-        <h2 className="text-xl md:text-3xl font-medium">Real Women, Real Results</h2>
+        <h2 className="text-xl md:text-3xl font-medium">
+          Real Women, Real Results
+        </h2>
         <p className="text-sm text-gray-600 mb-8">Flawless Beauty</p>
 
         <div className="relative flex items-center justify-center overflow-hidden">
@@ -30,7 +32,10 @@ export default function Aftereffect() {
 
           <div className="flex gap-6 overflow-x-auto snap-x scroll-smooth px-4 md:px-10 w-full">
             {beforeAfterData.map((item, idx) => (
-              <div key={idx} className="flex flex-col items-center snap-start shrink-0 w-[300px] sm:w-[350px] md:w-[400px] lg:w-[500px]">
+              <div
+                key={idx}
+                className="flex flex-col items-center snap-start shrink-0 w-[300px] sm:w-[350px] md:w-[400px] lg:w-[500px]"
+              >
                 <div className="relative w-full h-[180px]">
                   <Image
                     src={item.before}

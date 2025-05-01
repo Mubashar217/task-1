@@ -1,11 +1,10 @@
-'use client';
+"use client";
 
-import Image from 'next/image';
+import Image from "next/image";
 
 export default function Oldagecard() {
   return (
     <section className="w-full bg-[#f4dcdc] px-6 py-12 lg:px-24 flex flex-col lg:flex-row items-center justify-center mt-20">
-      
       <div className="relative w-full lg:w-1/2 max-w-[600px]">
         <div className="absolute -left-6 -top-6 w-full h-full bg-[#e4c4c4] -z-10 rounded" />
         <Image

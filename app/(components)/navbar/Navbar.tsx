@@ -1,12 +1,7 @@
 "use client";
 
 import { useState, useRef, useEffect } from "react";
-import {
-  Menu,
-  X,
-  ShoppingBag,
-  ChevronRight,
-} from "lucide-react";
+import { Menu, X, ShoppingBag, ChevronRight } from "lucide-react";
 import Link from "next/link";
 
 export default function Navbar() {
@@ -77,7 +72,8 @@ export default function Navbar() {
   return (
     <header className="bg-white shadow-md sticky top-0 z-50 max-w-[1920px] mx-auto">
       <div className="bg-red-200 text-sm text-center py-1 text-black">
-        <span>Click Here</span> to Get <span>15% OFF</span> When You Sign Up For Email and SMS
+        <span>Click Here</span> to Get <span>15% OFF</span> When You Sign Up For
+        Email and SMS
       </div>
 
       <div className="max-w-7xl mx-auto flex items-center justify-between px-4 py-3 relative">
@@ -107,10 +103,18 @@ export default function Navbar() {
 
         <div className="flex items-center gap-3 sm:ml-auto">
           <div className="hidden sm:flex items-center space-x-4 text-sm text-gray-800 ml-auto">
-            <Link href="/" className="hover:underline">Find Your Shade |</Link>
-            <Link href="/shop" className="hover:underline">FAQ |</Link>
-            <Link href="/about" className="hover:underline">jerome's Secrels |</Link>
-            <Link href="/contact" className="hover:underline">Sign In</Link>
+            <Link href="/" className="hover:underline">
+              Find Your Shade |
+            </Link>
+            <Link href="/shop" className="hover:underline">
+              FAQ |
+            </Link>
+            <Link href="/about" className="hover:underline">
+              jerome's Secrels |
+            </Link>
+            <Link href="/contact" className="hover:underline">
+              Sign In
+            </Link>
           </div>
 
           <Link href="/cart" className="relative group hover:text-pink-500">
@@ -152,10 +156,18 @@ export default function Navbar() {
                 ))}
 
                 <hr className="my-2" />
-                <Link href="/" className="block hover:underline">Find Your Shade</Link>
-                <Link href="/" className="block hover:underline">Jerome’s Secrets</Link>
-                <Link href="/" className="block hover:underline">FAQ</Link>
-                <Link href="/" className="block hover:underline">Sign In</Link>
+                <Link href="/" className="block hover:underline">
+                  Find Your Shade
+                </Link>
+                <Link href="/" className="block hover:underline">
+                  Jerome’s Secrets
+                </Link>
+                <Link href="/" className="block hover:underline">
+                  FAQ
+                </Link>
+                <Link href="/" className="block hover:underline">
+                  Sign In
+                </Link>
               </>
             ) : (
               <>

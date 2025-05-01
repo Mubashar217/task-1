@@ -97,7 +97,6 @@ const Footer = () => {
             </p>
             <Button />
 
-            {/* Icons under button (desktop view) */}
             <div className="mt-6 flex items-center justify-start space-x-4 text-xl">
               <FontAwesomeIcon icon={faFacebookF} />
               <FontAwesomeIcon icon={faInstagram} />
