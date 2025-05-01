@@ -41,10 +41,10 @@ const testimonials = [
   },
 ];
 
-export default function TestimonialSlider() {
+export default function Card6() {
   return (
     <div
-      className="w-full overflow-x-auto"
+      className="w-full overflow-x-auto max-w-[1920px]"
       style={{ scrollbarWidth: 'none', msOverflowStyle: 'none' }}
     >
       <div
@@ -56,13 +56,13 @@ export default function TestimonialSlider() {
         {testimonials.map((item, index) => (
           <div
             key={index}
-            className="min-w-[300px] max-w-[320px] border border-red-300 rounded-lg p-6 flex-shrink-0 bg-white shadow-sm hover:shadow-md transition"
+            className="min-w-[340px] max-w-[360px] border border-red-300 rounded-lg p-8 flex-shrink-0 bg-white shadow-sm hover:shadow-md transition"
           >
-            <div className="text-red-200 text-lg mb-3 text-center">
+            <div className="text-red-200 text-lg mb-4 text-center">
               {'★'.repeat(item.rating)}
             </div>
-            <p className="italic text-base text-gray-800 mb-3 text-center">{item.message}</p>
-            <p className="text-sm text-gray-500 mb-3 text-center">{item.product}</p>
+            <p className="italic text-base text-gray-800 mb-4 text-center">{item.message}</p>
+            <p className="text-sm text-gray-500 mb-4 text-center">{item.product}</p>
             <p className="font-semibold text-base text-center">{item.name}</p>
           </div>
         ))}
