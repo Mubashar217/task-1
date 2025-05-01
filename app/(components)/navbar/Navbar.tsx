@@ -103,21 +103,21 @@ export default function Navbar() {
 
         <div className="flex items-center gap-3 sm:ml-auto">
           <div className="hidden sm:flex items-center space-x-4 text-sm text-gray-800 ml-auto">
-            <Link href="/" className="hover:underline">
+            <Link href="/findyourshade" className="hover:underline">
               Find Your Shade |
             </Link>
-            <Link href="/shop" className="hover:underline">
+            <Link href="/faq" className="hover:underline">
               FAQ |
             </Link>
-            <Link href="/about" className="hover:underline">
+            <Link href="/jeromsecrels" className="hover:underline">
               jerome's Secrels |
             </Link>
-            <Link href="/contact" className="hover:underline">
+            <Link href="/signin" className="hover:underline">
               Sign In
             </Link>
           </div>
 
-          <Link href="/cart" className="relative group hover:text-pink-500">
+          <Link href="/" className="relative group hover:text-pink-500">
             <ShoppingBag className="w-5 h-5" />
             {cartItemCount > 0 && (
               <span className="absolute top-0 right-0 -translate-x-1/2 -translate-y-1/2 bg-red-500 text-white text-xs font-bold rounded-full w-5 h-5 flex items-center justify-center">
