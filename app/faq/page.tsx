@@ -12,8 +12,7 @@ const faqs = [
   },
   {
     question: "When will I receive my order?",
-    answer:
-      "You should check your inbox for the confirmation email and set up your profile.",
+    answer: "You should check your inbox for the confirmation email and set up your profile.",
   },
   {
     question: "Is this set up on a club or automatic shipment?",
@@ -47,32 +46,24 @@ export default function Faq() {
         <div className="max-w-5xl mx-auto grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-6">
           <div className="col-span-1 sm:col-span-2 md:col-span-3 mb-6">
             <h2 className="text-3xl font-bold text-center">
-              How Can We Help You?
+              Frequently Asked Questions
             </h2>
           </div>
 
           <div className="text-center bg-white p-10 rounded shadow min-h-[180px]">
-            <img
-              src="/5.png"
-              alt="Phone Icon"
-              className="mx-auto mb-2 w-12 h-12"
-            />
+            <img src="/5.png" alt="Phone" className="mx-auto mb-2 w-12 h-12" />
             <h4 className="font-semibold">General Questions</h4>
           </div>
 
           <div className="text-center bg-white p-10 rounded shadow min-h-[180px]">
-            <img
-              src="/6.png"
-              alt="Clock Icon"
-              className="mx-auto mb-2 w-12 h-12"
-            />
+            <img src="/6.png" alt="Clock" className="mx-auto mb-2 w-12 h-12" />
             <h4 className="font-semibold">Product Questions</h4>
           </div>
 
           <div className="text-center bg-white p-10 rounded shadow min-h-[180px]">
             <img
               src="/7.png"
-              alt="Location Icon"
+              alt="Location"
               className="mx-auto mb-2 w-12 h-12"
             />
             <h4 className="font-semibold">Shipping & Returns</h4>
