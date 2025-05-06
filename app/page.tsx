@@ -25,12 +25,12 @@ export default function Home() {
         <Card4 />
         <Girlcard />
         <Card5 />
-        <Aftereffect/>
-        <Card6/>
-        <Oldagecard/>
-        <Card7/>
+        <Aftereffect />
+        <Card6 />
+        <Oldagecard />
+        <Card7 />
         <Footer />
-      
+
       </div>
     </>
   );

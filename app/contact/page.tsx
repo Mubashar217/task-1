@@ -7,8 +7,7 @@ import Navbar from "../(components)/navbar/Navbar";
 const faqs = [
   {
     question: "How do I sign up for MyWebsite Product?",
-    answer:
-      "To sign up, head to the onboarding screen, look for the Sign-Up button, and follow the instructions. New subscribers can enjoy getting started for nothing.",
+    answer: "look for the Sign-Up button, and follow the instructions. New subscribers can enjoy getting started for nothing.",
   },
   {
     question: "What should I do next?",
@@ -48,7 +47,7 @@ export default function Contact() {
               href="mailto:support@jeromealexander.com"
               className="text-black underline text-sm"
             >
-              support@jeromealexander.com
+              example@gmail.com
             </a>
           </div>
 

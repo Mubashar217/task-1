@@ -116,9 +116,8 @@ const Footer = () => {
               >
                 {section}
                 <ChevronDown
-                  className={`h-4 w-4 transform transition ${
-                    openSection === section ? "rotate-180" : ""
-                  }`}
+                  className={`h-4 w-4 transform transition ${openSection === section ? "rotate-180" : ""
+                    }`}
                 />
               </button>
               {openSection === section && (

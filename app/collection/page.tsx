@@ -7,7 +7,7 @@ export default function Collection() {
     <div className="max-w-[1920px] mx-auto">
       <Navbar />
       <h1 className="text-4xl font-bold text-center py-20">Collection</h1>
-      <Cardmart/>
+      <Cardmart />
       <Footer />
     </div>
   );
