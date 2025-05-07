@@ -7,3 +7,10 @@
   -ms-overflow-style: none;
   scrollbar-width: none;
 }
+.your-element {
+  width: 519px;
+  height: 259.5px;
+
+  border: 6px dotted black; /* You can change 'black' to any color */
+  transform: rotate(-90deg);
+}

@@ -8,7 +8,7 @@ export default function Pdp2() {
             <div className="max-w-4xl mx-auto mb-40">
                 <Image
                     src="/bigimge1.png"
-                    alt="Video thumbnail"
+                    alt="imge"
                     width={960}
                     height={453}
                     className="rounded-lg mx-auto"
@@ -28,7 +28,7 @@ export default function Pdp2() {
                 <div className="flex flex-col items-center">
                     <Image
                         src="/comp1.png"
-                        alt="Hyaluronic Acid"
+                        alt="img"
                         width={300}
                         height={200}
                         className="rounded-lg"
@@ -44,7 +44,7 @@ export default function Pdp2() {
                 <div className="flex flex-col items-center">
                     <Image
                         src="/comp2.jpg"
-                        alt="Matrixyl 3000"
+                        alt="img"
                         width={300}
                         height={200}
                         className="rounded-lg"
@@ -61,7 +61,7 @@ export default function Pdp2() {
                 <div className="flex flex-col items-center">
                     <Image
                         src="/comp3.jpg"
-                        alt="Argireline"
+                        alt="img"
                         width={300}
                         height={200}
                         className="rounded-lg"

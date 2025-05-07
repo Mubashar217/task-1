@@ -20,7 +20,7 @@ export default function Header() {
               The AirBrush family helps create the smooth, flawless finish your
               skin deserves.
             </p>
-            <button className="bg-[#4a1f1f] text-white px-6 py-2 text-sm font-semibold">
+            <button className="bg-[#4a1f1f] text-white px-8 rounded py-4 text-sm font-bold">
               SHOP NOW
             </button>
           </div>

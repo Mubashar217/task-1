@@ -11,8 +11,7 @@ const faqs = [
   },
   {
     question: "What should I do next?",
-    answer:
-      "You should check your inbox for the confirmation email and set up your profile.",
+    answer:  "You should check your inbox for the confirmation email and set up your profile.",
   },
   {
     question: "Have Methods of Payment devices arrived?",
@@ -47,7 +46,7 @@ export default function Contact() {
               href="mailto:support@jeromealexander.com"
               className="text-black underline text-sm"
             >
-              example@gmail.com
+              jeromealexander@gmail.com
             </a>
           </div>
 

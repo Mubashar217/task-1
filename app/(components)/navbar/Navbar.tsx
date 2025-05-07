@@ -9,7 +9,7 @@ export default function Navbar() {
   const [search, setSearch] = useState("");
   const [activeCategory, setActiveCategory] = useState<string | null>(null);
   const cartItemCount = 1;
-
+  
   const menuRef = useRef<HTMLDivElement>(null);
 
   const menuItems = [
