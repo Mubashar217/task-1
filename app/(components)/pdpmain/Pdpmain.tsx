@@ -117,17 +117,17 @@ export default function Pdpmain() {
                 </div>
 
                 <div className="flex flex-col gap-2">
-                    <button className="bg-red-200 text-white py-2 rounded-md">
+                    <button className="bg-red-200 text-white py-2 rounded-md cursor-pointer">
                         ADD TO CART
                     </button>
-                    <button className="border border-gray-500 py-2 rounded-md">
+                    <button className="border border-gray-500 py-2 rounded-md cursor-pointer">
                         FIND MY SHADE
                     </button>
                 </div>
 
                 <div className="text-sm text-gray-500 flex gap-4 mt-2">
-                    <span>🚚 Free shipping on order $50+</span>
-                    <span>↩️ Free and easy returns</span>
+                    <span> Free shipping on order $50+</span>
+                    <span> Free and easy returns</span>
                 </div>
 
                 <div>

@@ -12,7 +12,8 @@ const faqs = [
   },
   {
     question: "When will I receive my order?",
-    answer: "You should check your inbox for the confirmation email and set up your profile.",
+    answer:
+      "You should check your inbox for the confirmation email and set up your profile.",
   },
   {
     question: "Is this set up on a club or automatic shipment?",
