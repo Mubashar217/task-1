@@ -9,7 +9,7 @@ export default function Blog() {
     title: `Blog Title Lorem ipsum dolor sit amet consectetur`,
     date: "1 May 2025",
     excerpt:
-      "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam rhoncus et elit at facilisis...",
+      "Lorem  dolor sit amet, consectetur adipiscing elit. Aliquam rhoncus et elit at facilisis...",
   }));
 
   return (
