@@ -46,7 +46,7 @@ export default function Contact() {
               href="mailto:support@jeromealexander.com"
               className="text-black underline text-sm"
             >
-              jeromealexander@gmail.com
+              support@jeromealexander.com
             </a>
           </div>
 

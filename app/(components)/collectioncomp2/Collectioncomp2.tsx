@@ -16,7 +16,7 @@ const Collectioncomp2 = () => {
           <p className="text-sm text-gray-500 mt-1">$22.00</p>
         </div>
 
-       
+
         <div className="flex flex-col items-center text-center">
           <div className="relative">
             <Image src="/cop2.png" alt="Product 2" width={500} height={600} />

@@ -88,7 +88,7 @@ export default function Collectionface() {
                               key={index}
                               onClick={(e) => {
                                 e.stopPropagation();
-                                setShade(color); 
+                                setShade(color);
                               }}
                               className={`w-5 h-5 rounded-full border-2 ${shade === color ? 'border-black' : 'border-gray-300'
                                 }`}
