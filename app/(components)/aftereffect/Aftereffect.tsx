@@ -26,11 +26,11 @@ export default function Aftereffect() {
         <p className="text-sm text-gray-600 mb-8">Flawless Beauty</p>
 
         <div className="relative flex items-center justify-center overflow-hidden">
-          <div className="absolute left-0 top-1/2 -translate-y-1/2 p-2 cursor-pointer text-2xl text-gray-400 hover:text-black">
+          <div className="absolute left-0 top-1/2 -translate-y-1/2 p-2 cursor-pointer text-2xl text-gray-400 hover:text-black z-10">
             &lt;
           </div>
 
-          <div className="flex gap-6 overflow-x-auto snap-x scroll-smooth px-4 md:px-10 w-full">
+          <div className="flex gap-6 overflow-x-auto snap-x scroll-smooth px-4 md:px-10 w-full justify-center">
             {beforeAfterData.map((item, idx) => (
               <div
                 key={idx}
@@ -55,7 +55,7 @@ export default function Aftereffect() {
             ))}
           </div>
 
-          <div className="absolute right-0 top-1/2 -translate-y-1/2 p-2 cursor-pointer text-2xl text-gray-400 hover:text-black">
+          <div className="absolute right-0 top-1/2 -translate-y-1/2 p-2 cursor-pointer text-2xl text-gray-400 hover:text-black z-10">
             &gt;
           </div>
         </div>
