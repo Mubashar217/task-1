@@ -22,7 +22,7 @@ export default function Collec1() {
         </div>
 
         
-        <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-55">
+        <div className="grid grid-cols-3 sm:grid-cols-2 md:grid-cols-3 md:gap-55  gap-5">
           {products.map((product) => (
             <div key={product.title} className="text-center">
                 <h3 className="font-semibold">{product.title}</h3>

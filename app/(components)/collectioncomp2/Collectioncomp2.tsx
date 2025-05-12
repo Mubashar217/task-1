@@ -7,7 +7,7 @@ const Collectioncomp2 = () => {
     <section className="w-full px-6 py-10 bg-white">
       <h2 className="text-2xl font-semibold mb-6">Flawless Skin is the Heart of Every Luxurious Look</h2>
 
-      <div className="grid grid-cols-1 md:grid-cols-4 gap-12 items-center">
+      <div className="grid grid-cols-2 md:grid-cols-4 gap-12 items-center">
    
         <div className="flex flex-col items-center text-center">
           <Image src="/cop1.png" alt="Product 1" width={500} height={600} />
