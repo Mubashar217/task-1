@@ -6,7 +6,7 @@ import Navbar from "../(components)/navbar/Navbar";
 export default function Blog() {
   const posts = Array.from({ length: 9 }).map((_, idx) => ({
     id: idx,
-    title: `Blog Title Lorem ipsum dolor sit amet consectetur`,
+    title: `Blog Titles Lorem ipsum dolor sit amet consectetur`,
     date: "1 May 2025",
     excerpt:
       "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam rhoncus et elit at facilisis...",
@@ -30,7 +30,7 @@ export default function Blog() {
               vulputate nibh aliquam sed.
             </p>
             <button className="self-start px-8 py-3 bg-red-200 text-black font-bold rounded-sm text-sm">
-              READ MORE
+              READ MORE ...
             </button>
           </div>
         </div>
